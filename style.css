@@ -85,12 +85,16 @@ body {
     margin: 10rem auto 6rem;
     padding: 0 2rem;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+    text-align: center;
+    gap: 4rem;
 }
 .hero-content {
-    flex: 1;
+    flex: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     animation: slideUpFade 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -132,6 +136,7 @@ body {
 
 .store-buttons {
     display: flex;
+    justify-content: center;
     gap: 1.2rem;
 }
 .store-btn {
@@ -151,9 +156,9 @@ body {
 
 /* Premium Phone Mockup */
 .hero-mockup {
-    flex: 1;
+    flex: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     animation: slideUpFade 1.2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
@@ -303,10 +308,8 @@ body {
 }
 
 @media (max-width: 900px) {
-    .hero { flex-direction: column; text-align: center; margin-top: 8rem; }
-    .hero-mockup { justify-content: center; margin-top: 3rem; }
+    .hero { margin-top: 8rem; gap: 3rem; }
     .title { font-size: 3rem; }
-    .store-buttons { justify-content: center; }
     .features { grid-template-columns: 1fr; }
     .footer-content { flex-direction: column; gap: 2rem; }
 }
