@@ -73,6 +73,24 @@ body {
     mix-blend-mode: multiply;
 }
 
+/* Main Centered Logo */
+.main-logo-container {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2rem;
+}
+.main-logo {
+    height: 64px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(30, 58, 138, 0.15);
+}
+.main-logo-text {
+    height: 40px;
+    object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
 /* Document Pages (Terms, Privacy) */
 .doc-container {
     max-width: 800px;
