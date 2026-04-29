@@ -70,7 +70,6 @@ body {
 .logo-text-img {
     height: 24px;
     object-fit: contain;
-    mix-blend-mode: multiply;
 }
 
 /* Main Centered Logo */
@@ -88,7 +87,6 @@ body {
 .main-logo-text {
     height: 40px;
     object-fit: contain;
-    mix-blend-mode: multiply;
 }
 
 /* Document Pages (Terms, Privacy) */
