@@ -106,10 +106,20 @@ body {
     color: var(--text-main);
 }
 .doc-content {
-    white-space: pre-wrap;
-    line-height: 1.8;
     color: var(--text-sub);
     font-size: 1rem;
+    line-height: 1.7;
+}
+.doc-heading {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin-top: 1.6rem;
+    margin-bottom: 0.4rem;
+}
+.doc-line {
+    margin: 0.2rem 0;
+    line-height: 1.7;
 }
 
 /* Hero Section */
