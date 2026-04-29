@@ -117,6 +117,7 @@ body {
     margin-bottom: 1.5rem;
     letter-spacing: -1.5px;
     color: #111;
+    word-break: keep-all;
 }
 
 .highlight {
