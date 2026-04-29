@@ -48,24 +48,12 @@ body {
 
 /* Navbar */
 .navbar {
-    padding: 1.2rem 2rem;
-    background: rgba(255, 255, 255, 0.4);
-    backdrop-filter: blur(20px);
-    -webkit-backdrop-filter: blur(20px);
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1000;
-    background: rgba(248, 250, 255, 0.85);
-    backdrop-filter: blur(12px);
-    -webkit-backdrop-filter: blur(12px);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 100;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
-    box-sizing: border-box;
 }
 .logo-container {
     display: flex;
