@@ -73,6 +73,30 @@ body {
 .logo-text-img {
     height: 24px;
     object-fit: contain;
+    mix-blend-mode: multiply;
+}
+
+/* Document Pages (Terms, Privacy) */
+.doc-container {
+    max-width: 800px;
+    margin: 8rem auto 4rem;
+    padding: 3rem;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+}
+.doc-container h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--bg-main);
+    color: var(--text-main);
+}
+.doc-content {
+    white-space: pre-wrap;
+    line-height: 1.8;
+    color: var(--text-sub);
+    font-size: 1rem;
 }
 
 /* Hero Section */
