@@ -225,6 +225,7 @@ body {
 }
 
 .dynamic-island {
+    display: none;
     position: absolute;
     top: 24px;
     left: 50%;
