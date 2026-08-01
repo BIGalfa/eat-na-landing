@@ -120,3 +120,4 @@ prado.co, 14260, RESELLER
 smartadserver.com, 5828, RESELLER, 060d053dcf45cbf3
 nativo.com, 6089, RESELLER, 59521ca7cc5e9fee
 themediagrid.com, falino, RESELLER, 9fac4a4a87c2a44f
+ironsrc.com, 673435, DIRECT
